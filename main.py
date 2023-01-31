@@ -4,5 +4,6 @@ class Produto:
         self.preco = preco
         self.codigo_de_barras = codigo_de_barras
 
+produto = Produto('iphone xr', 3200)
 quantidade = int (input('Informe a quantidade: '))
 print(quantidade)
