@@ -4,6 +4,10 @@ class Produto:
         self.preco = preco
         self.codigo_de_barras = codigo_de_barras
 
-produto = Produto('iphone xr', 3200)
+    def exibir(self):
+        print(f'Nome: {self.nome} - Preço: {self.preco}')
+
+produto = Produto('iphone xr', 3200, 'leito de código de barra')
+produto.exibir()
 quantidade = int (input('Informe a quantidade: '))
 print(quantidade)
