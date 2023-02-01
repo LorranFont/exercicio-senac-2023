@@ -10,3 +10,4 @@ class Produto:
 produto = Produto('iphone xr', 3200, 'leito de código de barra')
 produto.exibir()
 quantidade = int (input('Informe a quantidade: '))
+print(f'O valor total é de: R${quantidade * produto.preco}')
